@@ -1,0 +1,22 @@
+Stack memory is specific for a primitive value
+Heap memory it specific for reference values
+
+the reference memory's reference it's alocated in the stack memory
+
+integer pool = (-128, 127)
+
+@Deprecated is one that programmers are discouraged from using.
+
+arrays are also reference types
+
+escape sequence in spring :
+
+\tab - tab
+\b - backspace
+\n - new line
+\r - carriage return. () 
+\f - form feed.
+\' - single quote
+\" - double quote
+\\ backslach.
+

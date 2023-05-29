@@ -1,0 +1,24 @@
+daca scriem cmd in searchbar de la file explorer se deschide comand line
+
+cmd : java -version = arata varianta actuala de java
+cmd : cd = change directory
+cmd : cd.. = te intoarce un director
+cmd : javac -version = arata versiunea compiler
+
+arrow up in cmd is rewriteing the code that was up
+
+environment variables ? 
+
+a console aplication is an application to work with data input and output in command line
+
+console application doesn't have GUI
+
+.java(byte code) files are converted into with javac(java .class files
+JVM executes class files 
+
+cmd : notepad HelloWorld.java = initiaza fisierul HelloWorld.java
+cmd : javac HelloWorld.java = compileaza Helloworld.java in HelloWorld.Class
+cmd : java HelloWorld.class = executa efectiv linia de cod printand spre exemplu "Hello World" in terminalul cmd.
+
+What is a .bat file used for?
+A batch file is a script file that stores commands to be executed in a serial order. It helps automate routine tasks without requiring user input or intervention. Some common applications of batch files include loading programs, running multiple processes or performing repetitive actions in a sequence in the system.

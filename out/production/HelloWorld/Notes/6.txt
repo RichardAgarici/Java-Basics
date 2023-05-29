@@ -1,0 +1,10 @@
+regular expressions
+
+regex pack import
+
+Pattern class = What is a pattern class in Java?
+A compiled representation of a regular expression. A regular expression, specified as a string, must first be compiled into an instance of this class. The resulting pattern can then be used to create a Matcher object that can match arbitrary character sequences against the regular expression. 
+
+Mather class = An engine that performs match operations on a character sequence by interpreting a Pattern . A matcher is created from a pattern by invoking the pattern's matcher method.
+
+posix?

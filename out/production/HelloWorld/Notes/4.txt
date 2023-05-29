@@ -1,0 +1,27 @@
+CTRL + ALT + O = REMOVES USELESS IMPORT FROM THE PROGRAM (CELE CU GRI)
+
+CTRL + ALT + L = REALINIAZA CODU
+
+operators are always booleans
+
+Relational operators : 
+== = egal
+!= = nu e egal
+< =  mai mic
+> =  mai mare
+>= = mai mare sau egal
+<= = mai mic sau egal
+
+logical operators: always work with booleans
+
+operatorul ternar testeaza o expresie daca e adv sau falsa si in functie de rezultat proceseaza un raspuns. 
+se foloseste scrierea ( expr ? rez adv : rez fals) ex:
+( 2<1 ? "2 e mai mare ca 1 : "2 nu e mai mare ca unu"); = expresia se traduce ca daca 2 e mai mare ca 1 pot fi 2 
+posibilitate : daca e adevarat scrii ca e 2 mai mare ca 1, daca e fals scrii ca 2 nu e mai mare ca 1
+
+daca impartim 2 intigeri si iese rest, se rotunjeste
+
+BigDecimal ?
+
+if you use + between 1 string and other references, the output is always a string
+

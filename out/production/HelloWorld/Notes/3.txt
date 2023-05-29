@@ -1,0 +1,38 @@
+2 major types of data : primitive types/reference types
+
+reference types : class/annotations/interfaces/enumerations/arrays
+
+primive types : integers/floating-point numbers/booleans/characters
+
+using primitive types over reference types can increse eficiency
+
+boolean types value, is platform dependent. it means that you have to check first in order to say.
+
+Java is a strong type language = it means that you have to be specific in every row of the compilation process. 
+
+floats are by default a double. so if you dont specify the type with "f" at the final, you will have a compilation error.
+
+daca folosim "var" ca si variabila, dar nu declaram tipul. ele default sunt int 
+
+casting se face (primitiva) valoare mai mica
+
+daca de exemplu castam un byte care are valoare mica intre -256 si +256, tot ce este in plus se "Overflow", adica reia tot siru de la inceput si trece cu - . procedura asta nu e eficienta
+
+autoboxing : este Wrapper class 
+
+unboxin = Din wrapper class in primitiva
+
+daca de exemplu vrem sa apelam un index de array care este mai mare decat cel care e maxim, vom primi o eroare numita "IndexOutOfBoundException"
+
+int[] arr = {3,2,1}; = se numeste array literal 
+
+ int[][] matrix={{1,2,3},{4,5,6}}; = este o matrice, un array de array sau un vector de array 
+
+daca nu desclaram o matrice cu anumita valoare, intotdeauna valoarea va fii null
+daca nu declaram orice tip de referinta, mereu va fi null
+
+pentru a putea manipula array-urile, avem nevoie de clasa Arrays, care detine mai multe metode statice cu care putem sa interactionam. 
+sort()-sortare
+automat cand apelam clasa Arrays trebuie importat si java.util.Arrays
+
+

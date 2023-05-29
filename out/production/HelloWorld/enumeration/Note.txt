@@ -1,0 +1,8 @@
+Enum is a special data type which enable a variable to be a set of predefined constants.
+The value of the Enum type must always be one of the equal types.
+We need enum types to express a set of values that are not infinite.
+We need to use enum for known variable.
+Example : spring, summer, autumn, winter.
+
+set of cards. can be either truth or dear.
+

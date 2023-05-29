@@ -1,0 +1,66 @@
+cmd : javac *.java = compileaza orice fisier .java pe care il gaseste in folder
+cmd : java HelloWorld = executa liniile de cod ce se afla in fisierul compilat java
+cmd : del *.class = sterge orice fisiere .class pe care le gaseste in interiorul fisierului.
+
+cmd : @echo off = executa toate liinile de cod in "liniste" fara a arata rezultatee din spate. doar sintaxa finala din main 
+
+
+ide = integrated development environment. source code editor, build automation tools, debugger, compiler
+
+TODO sau FIXME scris in interiorul unui comentariu il pune pe o lista suplimentara unde se poate comunica mai usor in interiorul codului in viitor. de mentionat 
+
+// single line comment
+
+/*
+multi line comments
+*/
+
+/**
+java doc type comment
+*/
+
+@param in java doc introduce parametri
+
+/**
+@author = rezulta autorul fisierului.
+
+{@code} = displays text in code font without interpreting the text as HTML markup or nested javadoc 
+tags
+
+{@docRooot} = Represents the relative path to the generated document's root directory from any 
+generated page.
+
+@deprecated = Adds a comment indicating that this API should no longer be used.
+
+@exception = Adds a Throws subheading to the generated documentation, with the classname and description text
+
+{@InheritDoc} = Inherits a comment from the nearest inheritable class or implementable interface
+
+{@link} = inserts an in-line with the visible text label that points to the documentation for the specified package, class, or member name of a referenced class.
+
+{@linkplain} = Identical to {@link}, except the link's label is displayed in plain text than code font.
+
+@param = Adds a parameter with the specified parameter-name followed by the specified description to the "Parameters" section
+
+@return = Adds a "Returns" section with the description text.
+
+@see = Adds a "See also" heading with a link or text entry that points to reference
+
+@serial = Used in the doc comment for a default serializable field.
+
+@serialData = Documents the data written by writeObject() or writeExternal() methods
+
+@serialField = Documents an ObjectStreamField component
+
+@since = Adds a "Since" heading with the specified since-text to the generated documentation
+
+@throws = the @throws and @exception tags are synonyms
+
+{@value} = When {@value} is used in the doc comment of a static field. It  displays  the value of that 
+constant.
+
+@version = Adds a "Version" subheading with the specified version-text to the generated docs when the -version option is used.
+*/ 
+
+se poate genera un fisier foarte complex cu toata documentatia java pe care o avem in prezent din meniul tools -> generate java docs
+
